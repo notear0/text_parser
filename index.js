@@ -1,11 +1,15 @@
-const colors = require('colors'); 
+const Parser = require("simple-text-parser");
+const parser = new Parser();
 
-const s1 = "A time to thorow stones away";
-const s2 = "and a time to gather stones together";
-const s3 = "A time to search and a time to give up as lost";
-const s4 = "A time to keep and a time to throw away"; 
 
-console.log(s1.underline.red);
-console.log(s2.inverse.blue);
-console.log(s3.rainbow);
-console.log(s4.inverse.red); 
+parser.addRule(/#[a-z\d-]+/gi, (tag) => {
+    return `<a href="/tag/${tag.substring(1)}">${tag}</a>`;
+});
+
+
+const textToParse = '<a href="www.google.com"></a>';
+
+
+const parsedText = parser.parse(textToParse);
+
+console.log(parsedText); 

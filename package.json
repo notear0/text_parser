@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/notear0/text_parser#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "simple-text-parser": "^2.1.1"
   }
 }
