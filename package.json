@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/notear0/text_parser/issues"
   },
-  "homepage": "https://github.com/notear0/text_parser#readme"
+  "homepage": "https://github.com/notear0/text_parser#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
