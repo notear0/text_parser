@@ -29,6 +29,9 @@ exports.parse = function(text, args) {
   return process_result(result, args);
 }
 
+exports.parse_with_tts = function(text, args) {
+}
+
 find_in_array = function(array, word){
   for (var item in array) {
     if (array[item]['word'] === word) return item;

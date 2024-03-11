@@ -1,5 +1,5 @@
 {
-  "name": "text_parser",
+  "name": "text_parser_with_tts",
   "version": "0.1.0",
   "description": "text parser with tts engine (to be updated)",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/notear0/text_parser.git"
+    "url": "git+https://github.com/notear0/text_parser_with_tts.git"
   },
   "author": "notear0",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/notear0/text_parser/issues"
+    "url": "https://github.com/notear0/text_parser_with_tts/issues"
   },
-  "homepage": "https://github.com/notear0/text_parser#readme",
+  "homepage": "https://github.com/notear0/text_parser_with_tts#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "simple-text-parser": "^2.1.1"
