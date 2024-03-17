@@ -18,6 +18,7 @@
   "homepage": "https://github.com/notear0/text_parser_with_tts#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "google-tts-api": "^2.0.2",
     "simple-text-parser": "^2.1.1"
   }
 }
