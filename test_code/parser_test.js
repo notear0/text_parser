@@ -1,5 +1,5 @@
 var assert = require('assert');
-var t = require('../text_parser');
+var t = require('../index.js');
 
 //simple usage
 var result = t.parse("some text text");
